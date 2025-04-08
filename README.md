@@ -145,17 +145,12 @@ blossom-flower-shop/
    - Check file paths and permissions
    - Ensure mod_rewrite is enabled
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contributors
 
-- [Your Name]
-- [Other Contributors]
+- Tamim Ahasan Rijon
 
 ## Support
 
 For support and queries:
-- Email: support@blossomflowers.com
-- Phone: +880 1700-000000
+- Email: tamimahasan.ar@gmail.com
+- Phone: +880 1611-621958
