@@ -145,6 +145,42 @@ blossom-flower-shop/
    - Check file paths and permissions
    - Ensure mod_rewrite is enabled
 
+## Testing
+1. **Unit Testing**
+   - Run PHPUnit tests: `./vendor/bin/phpunit`
+   - Test coverage report generation
+
+2. **Browser Testing**
+   - Cross-browser compatibility testing
+   - Responsive design testing
+
+## Deployment
+1. **Production Server Requirements**
+   - PHP 7.4+
+   - MySQL 5.7+
+   - Apache/Nginx
+   - SSL certificate
+
+2. **Deployment Steps**
+   ```bash
+   git pull origin main
+   composer install --no-dev
+   php artisan optimize
+   php artisan config:cache
+   php artisan route:cache
+   ```
+
+## Updates and Maintenance
+1. **Regular Updates**
+   - Security patches
+   - Feature updates
+   - Performance optimizations
+
+2. **Backup Strategy**
+   - Daily database backups
+   - Weekly full system backups
+   - Backup verification procedures
+
 ## Contributors
 
 - Tamim Ahasan Rijon
